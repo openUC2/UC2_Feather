@@ -10,6 +10,7 @@
 
 - Design
   - PCBnew
+    - get board setup parameters from JLC SMT and common manufacturers (aisler)
     - Mechanical design (Inkscape + SVG2Shenzhen to make board outline a footprint?)
     - Layout
     - Add labels to solderjumpers silkscreen
