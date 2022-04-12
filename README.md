@@ -9,11 +9,10 @@
 ## TODO to make Rev. B ready:
 
 - Design
-  - EESchema
-    - Complete LCSC numbers for all components (JLC SMT)
   - PCBnew
     - Mechanical design (Inkscape + SVG2Shenzhen to make board outline a footprint?)
     - Layout
+    - Add labels to solderjumpers silkscreen
     - Routing
     - Add OSHW logo and UC2 OSHW cert number
     - Add designer name

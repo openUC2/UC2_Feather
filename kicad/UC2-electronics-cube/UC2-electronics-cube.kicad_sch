@@ -1505,6 +1505,11 @@
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 5aa9f028-6150-4ff7-9d50-60706167fd81)
   )
+  (text "Next Rev: For PCBA use 2x C92270 \nfemale 10x2 2.54mm headers"
+    (at 27.94 119.38 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7af3c120-331a-410f-b2f3-26b4120d966e)
+  )
   (text "5V 3A" (at 59.055 135.255 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 93a8f80e-9872-45d0-ad1b-95e617056d85)
@@ -1928,10 +1933,10 @@
     (property "Reference" "J106" (id 0) (at 206.502 155.3753 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "pow_5V" (id 1) (at 206.502 157.9122 0)
+    (property "Value" "" (id 1) (at 206.502 157.9122 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 204.47 154.94 0)
+    (property "Footprint" "" (id 2) (at 204.47 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 204.47 154.94 0)
@@ -1995,10 +2000,10 @@
     (property "Reference" "J104" (id 0) (at 179.832 120.8059 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "STEMMA 3-pin jack" (id 1) (at 179.832 123.3428 0)
+    (property "Value" "" (id 1) (at 179.832 123.3428 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" (id 2) (at 177.8 121.285 0)
+    (property "Footprint" "" (id 2) (at 177.8 121.285 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 177.8 121.285 0)
@@ -2051,10 +2056,10 @@
     (property "Reference" "J102" (id 0) (at 228.092 104.5753 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "stepdrv1_1B-2B-1A-2A-NC" (id 1) (at 228.092 107.1122 0)
+    (property "Value" "" (id 1) (at 228.092 107.1122 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "jst-xh-smd_lib:JST_XH_S5B-XH-SM4-TB_1x05-1MP_Horizontal" (id 2) (at 226.06 105.41 0)
+    (property "Footprint" "" (id 2) (at 226.06 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 226.06 105.41 0)
@@ -2074,8 +2079,8 @@
     (in_bom yes) (on_board yes)
     (uuid 796b08cd-b6fd-4a43-a1c0-cfdbd1b2a556)
     (property "Reference" "J101" (id 0) (at 106.68 28.575 0))
-    (property "Value" "ESP-pins-breakout" (id 1) (at 106.68 31.1119 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical_SMD" (id 2) (at 105.41 49.53 0)
+    (property "Value" "" (id 1) (at 106.68 31.1119 0))
+    (property "Footprint" "" (id 2) (at 105.41 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 105.41 49.53 0)
@@ -2147,10 +2152,10 @@
     (property "Reference" "A101" (id 0) (at 57.15 107.315 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "esp32-mh-et-live" (id 1) (at 50.8 109.855 0)
+    (property "Value" "" (id 1) (at 50.8 109.855 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "ESP32_mini:ESP32_mini" (id 2) (at 50.8 30.48 0)
+    (property "Footprint" "" (id 2) (at 50.8 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 50.8 30.48 0)
@@ -2204,10 +2209,10 @@
     (property "Reference" "J103" (id 0) (at 228.092 119.8153 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "stepdrv2_1B-2B-1A-2A-NC" (id 1) (at 228.092 122.3522 0)
+    (property "Value" "" (id 1) (at 228.092 122.3522 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "jst-xh-smd_lib:JST_XH_S5B-XH-SM4-TB_1x05-1MP_Horizontal" (id 2) (at 226.06 120.65 0)
+    (property "Footprint" "" (id 2) (at 226.06 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 226.06 120.65 0)
@@ -2291,11 +2296,14 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bf7daa5a-162d-41b0-92af-520042c4e443)
     (property "Reference" "J105" (id 0) (at 38.1 128.3802 0))
-    (property "Value" "USBC_5V_3A_input" (id 1) (at 38.1 130.9171 0))
-    (property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 41.91 149.86 0)
+    (property "Value" "" (id 1) (at 38.1 130.9171 0))
+    (property "Footprint" "" (id 2) (at 41.91 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 41.91 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C165948" (id 4) (at 38.1 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "A1" (uuid a8a1002c-b133-45b2-b98d-b253a5320d0d))
@@ -2339,13 +2347,16 @@
     (property "Reference" "R101" (id 0) (at 66.2686 143.9453 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "5.1k" (id 1) (at 66.2686 146.4822 0)
+    (property "Value" "" (id 1) (at 66.2686 146.4822 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 64.77 144.78 0)
+    (property "Footprint" "" (id 2) (at 64.77 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 64.77 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C27834" (id 4) (at 64.77 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5827a86a-0b17-42a2-94fe-0aa95a8a0cab))
@@ -2390,13 +2401,16 @@
     (property "Reference" "R102" (id 0) (at 73.8886 143.9453 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "5.1k" (id 1) (at 73.8886 146.4822 0)
+    (property "Value" "" (id 1) (at 73.8886 146.4822 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 72.39 144.78 0)
+    (property "Footprint" "" (id 2) (at 72.39 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 72.39 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C27834" (id 4) (at 72.39 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2cf55e1e-dd30-4e51-8c00-58607ba0f0e0))
@@ -2409,10 +2423,10 @@
     (property "Reference" "J107" (id 0) (at 225.552 155.3753 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "pow_3.3V" (id 1) (at 225.552 157.9122 0)
+    (property "Value" "" (id 1) (at 225.552 157.9122 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 223.52 154.94 0)
+    (property "Footprint" "" (id 2) (at 223.52 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 223.52 154.94 0)
@@ -2608,10 +2622,10 @@
     (path "/1711ae5f-ce0e-4a66-8a10-4ed3cd14ff01/e9223384-0c85-42bd-9c05-bdb0b73d9770"
       (reference "#PWR0206") (unit 1) (value "+5VD") (footprint "")
     )
-    (path "/1711ae5f-ce0e-4a66-8a10-4ed3cd14ff01/6410dbae-f76b-4312-ab1f-878090e2d415"
+    (path "/1711ae5f-ce0e-4a66-8a10-4ed3cd14ff01/809302f7-897e-4005-ae93-4b08be6c32f6"
       (reference "#PWR0207") (unit 1) (value "GND2") (footprint "")
     )
-    (path "/1711ae5f-ce0e-4a66-8a10-4ed3cd14ff01/809302f7-897e-4005-ae93-4b08be6c32f6"
+    (path "/1711ae5f-ce0e-4a66-8a10-4ed3cd14ff01/6410dbae-f76b-4312-ab1f-878090e2d415"
       (reference "#PWR0208") (unit 1) (value "GND2") (footprint "")
     )
     (path "/1711ae5f-ce0e-4a66-8a10-4ed3cd14ff01/6ed6496f-b15f-42e7-b0a7-ee5fd047c499"
@@ -2644,26 +2658,26 @@
     (path "/3c89010e-9953-43be-b583-f060d98bb343/bf189a0c-146c-4be9-879b-6ea56a1baa7a"
       (reference "#PWR0307") (unit 1) (value "GND") (footprint "")
     )
-    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/0fee6507-1082-4102-8149-d30ea6a03b92"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/4df02198-6be9-4903-a826-41c245e63227"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/7f6f3777-ca63-41d3-ac01-ef9d3d7b750b"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/814e1a4d-7af9-401d-9231-45b3857b6d71"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR0401") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/bb7cf724-f703-410f-b3cd-26a9bd9b67c2"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+      (reference "#PWR0402") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/bf189a0c-146c-4be9-879b-6ea56a1baa7a"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/0fee6507-1082-4102-8149-d30ea6a03b92"
+      (reference "#PWR0403") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/7f6f3777-ca63-41d3-ac01-ef9d3d7b750b"
+      (reference "#PWR0404") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/4df02198-6be9-4903-a826-41c245e63227"
+      (reference "#PWR0405") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/d233d83d-fe57-42d0-9c98-4cb5d42655dc"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0406") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/bf189a0c-146c-4be9-879b-6ea56a1baa7a"
+      (reference "#PWR0407") (unit 1) (value "GND") (footprint "")
     )
     (path "/aecd9c44-75a3-4b9a-82b4-ebf02b3fa847"
       (reference "A101") (unit 1) (value "esp32-mh-et-live") (footprint "ESP32_mini:ESP32_mini")
@@ -2672,7 +2686,7 @@
       (reference "A301") (unit 1) (value "stepdrv_A4988") (footprint "Module:Pololu_Breakout-16_15.2x20.3mm")
     )
     (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/aa73fee7-39df-4ccd-8909-cad91e38b84a"
-      (reference "A?") (unit 1) (value "stepdrv_A4988") (footprint "Module:Pololu_Breakout-16_15.2x20.3mm")
+      (reference "A401") (unit 1) (value "stepdrv_A4988") (footprint "Module:Pololu_Breakout-16_15.2x20.3mm")
     )
     (path "/1711ae5f-ce0e-4a66-8a10-4ed3cd14ff01/8d05ded0-f934-40ff-9801-1c4ce13d6bf5"
       (reference "C201") (unit 1) (value "10uF/5V") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -2684,7 +2698,7 @@
       (reference "C301") (unit 1) (value "100uF/6V") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/39a932a5-b7f3-4f3a-941e-8d9ed6cd566f"
-      (reference "C?") (unit 1) (value "100uF/6V") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+      (reference "C401") (unit 1) (value "100uF/6V") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/1711ae5f-ce0e-4a66-8a10-4ed3cd14ff01/90036674-3781-4d11-8606-29420f5d8e12"
       (reference "D201") (unit 1) (value "SS14") (footprint "Diode_SMD:D_SMA")
@@ -2719,32 +2733,32 @@
     (path "/3c89010e-9953-43be-b583-f060d98bb343/31ffc39c-7dbe-4240-878f-5ba8641d5bfb"
       (reference "D309") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
     )
+    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/c1372eed-fd08-440e-a6c0-dcbca020940a"
+      (reference "D401") (unit 1) (value "red/ERROR_VMOT") (footprint "LED_SMD:LED_0805_2012Metric")
+    )
     (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/0acf5207-51fa-4d46-970e-6a0703828c26"
-      (reference "D?") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
-    )
-    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/15f7c74d-e1d8-46bb-a2f4-604e41b4d2b4"
-      (reference "D?") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
-    )
-    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/31ffc39c-7dbe-4240-878f-5ba8641d5bfb"
-      (reference "D?") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
-    )
-    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/79ee0b9a-9e98-474f-9a56-f1f063ce2737"
-      (reference "D?") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
+      (reference "D402") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
     )
     (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/8e1dd6a7-e272-407a-8f92-36854ce1c52f"
-      (reference "D?") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
-    )
-    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/9c3bf7e7-88c7-4a8b-970a-ec30175baf86"
-      (reference "D?") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
-    )
-    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/c1372eed-fd08-440e-a6c0-dcbca020940a"
-      (reference "D?") (unit 1) (value "red/ERROR_VMOT") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "D403") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
     )
     (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/cbec6a46-92ae-45da-9a1d-55267146e278"
-      (reference "D?") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
+      (reference "D404") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
+    )
+    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/79ee0b9a-9e98-474f-9a56-f1f063ce2737"
+      (reference "D405") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
+    )
+    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/9c3bf7e7-88c7-4a8b-970a-ec30175baf86"
+      (reference "D406") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
     )
     (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/f267d3bf-6c7c-4e25-823f-d8a678d34544"
-      (reference "D?") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
+      (reference "D407") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
+    )
+    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/15f7c74d-e1d8-46bb-a2f4-604e41b4d2b4"
+      (reference "D408") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
+    )
+    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/31ffc39c-7dbe-4240-878f-5ba8641d5bfb"
+      (reference "D409") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA_Handsoldering")
     )
     (path "/796b08cd-b6fd-4a43-a1c0-cfdbd1b2a556"
       (reference "J101") (unit 1) (value "ESP-pins-breakout") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical_SMD")
@@ -2792,16 +2806,16 @@
       (reference "JP304") (unit 1) (value "MS3_HIGH") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/2b53496a-f4ba-4f26-a0ee-8fe42f55858c"
-      (reference "JP?") (unit 1) (value "SLP-RST_NC") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
-    )
-    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/6fae4a19-5fdf-4da5-ac99-11330e969268"
-      (reference "JP?") (unit 1) (value "MS3_HIGH") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+      (reference "JP401") (unit 1) (value "SLP-RST_NC") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/98754734-1cef-41ac-8b4d-63f0792a7db3"
-      (reference "JP?") (unit 1) (value "MS1_HIGH") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+      (reference "JP402") (unit 1) (value "MS1_HIGH") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/b298c6ce-814b-485c-a6d9-6998544f7678"
-      (reference "JP?") (unit 1) (value "MS2_HIGH") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+      (reference "JP403") (unit 1) (value "MS2_HIGH") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+    )
+    (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/6fae4a19-5fdf-4da5-ac99-11330e969268"
+      (reference "JP404") (unit 1) (value "MS3_HIGH") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/1711ae5f-ce0e-4a66-8a10-4ed3cd14ff01/b7aee67d-2578-4243-ab03-565746da1d57"
       (reference "L201") (unit 1) (value "3.3uH @ 1 MHz") (footprint "L_SNR2010K_lib:SNR2010K")
@@ -2831,13 +2845,13 @@
       (reference "R206") (unit 1) (value "1R 1%") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/1711ae5f-ce0e-4a66-8a10-4ed3cd14ff01/3629b315-156a-4ca5-b25f-25c483ad0417"
-      (reference "R207") (unit 1) (value "40k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R207") (unit 1) (value "39k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/3c89010e-9953-43be-b583-f060d98bb343/34e5d4f8-2f78-4605-8a11-30fefaf5a5dd"
       (reference "R301") (unit 1) (value "68") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d84f5543-a42d-4ec6-bd7b-da9bd503863c/34e5d4f8-2f78-4605-8a11-30fefaf5a5dd"
-      (reference "R?") (unit 1) (value "68") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R401") (unit 1) (value "68") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/1711ae5f-ce0e-4a66-8a10-4ed3cd14ff01/639d3d6c-dc64-4c3d-80bb-ae3dada7f944"
       (reference "TP201") (unit 1) (value "LED_external") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
