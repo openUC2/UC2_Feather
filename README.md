@@ -10,7 +10,6 @@
 
 - Design
   - EESchema
-    - Make ENABLE pins individually controllable
     - Complete LCSC numbers for all components (JLC SMT)
   - PCBnew
     - Mechanical design (Inkscape + SVG2Shenzhen to make board outline a footprint?)
