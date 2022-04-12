@@ -4,10 +4,48 @@
 </p>
 
 # openUC2 *Electronics Module*
+
+
+## TODO to make Rev. B ready:
+
+- Design
+  - EESchema
+    - Make ENABLE pins individually controllable
+    - Complete LCSC numbers for all components (JLC SMT)
+  - PCBnew
+    - Mechanical design (Inkscape + SVG2Shenzhen to make board outline a footprint?)
+    - Layout
+    - Routing
+    - Add OSHW logo and UC2 OSHW cert number
+    - Add designer name
+  - When Design is finished:
+    - Change Rev mark on EEschema and PCBnew pages to "Rev. B" and add date
+    - Generate ibom, pdfs, gerbers
+- README:
+  - Replace photos
+  - Add where fab ordered and which fab parameters
+  - Add links to pdf schematic (internal here in project repo)
+
 ---
 
-This is the first attempt to have a unified modular electronics for the UC2 System. This is the very first version coming with a Stepper driver, a base plate adaptor and an ESP32 WEMOS Mini D1 adapter. 
-We will add more information in the near future. 
+This is the second revision of the first attempt to have a unified modular electronics for the UC2 System. It was designed for UC2's "incubator microscope", a bright-field (transmission) microscope, which is the simplest type of microscope.
+
+It consists of two boards:
+
+- A **motherboard** fitting inside of one cube, unifying:
+  - An ESP32 "MH-ET-Live" microcontroller module with WiFi and Bluetooth
+  - Two A4988 (or pin-compatible) stepper driver modules, with the motherboard also providing freewheeling diodes to protect the drivers from being backpowered (and destroyed this way)
+  - Two JST XH 5-pin jacks compatible with 28BYJ-48 – 5V geared stepper motors (which usually come with a driver that doesn't do microstepping)
+  - A USB type C jack to input 5V 3A to inject extra current, or to power everything independently from the USB jack on the ESP32 module (which probably goes to a computer for programming and control)
+  - A JST PH 3-pin jack compatible with Adafruit STEMMA cables, to connect the illumination daughterboard
+  - Pads breaking out all pins from the ESP32 module, and power nets (5V, 3V, GND)
+- An **illumination daughterboard** to sit on top of one cube and featuring:
+  - A 3W (high-power!) white LED
+  - A LED driver that accepts PWM dimming input
+  - A JST PH 3-pin jack to connect it to 5V power and PWM input from the motherboard with a STEMMA cable
+  - Pads breaking out the pins of the STEMMA connector
+
+
 
 <p align="center">
 <a href="#logo" name="logo"><img src="./IMAGES/IMG_20220131_114008.jpg"></a>
@@ -20,16 +58,19 @@ We will add more information in the near future.
 
 
 
-***Features:***
-* Electronics can be stacked
-* PCBs fit into the cubes
-* Inter PCB connection works through direct wires or I2C
+## Design principles:
 
+- PCBs fit into the cubes so that Electronics can be stacked
+- Modules are replaceable if they may burn out
+- Common connections between PCBs have solderless interfaces (jacks and cables with plugs) while further expansion and prototyping is made easier (through breakout pads to solder wires to)
 
+## Ideas for Future Revisions
+
+- do 3 stepper drivers for 3-dimensional (delta) stage
 
 # Software
 
-This PCB was created with Autdesk EAGLE. 
+This PCB was created with KiCad 6. 
 
 
 
@@ -41,7 +82,7 @@ This PCB was created with Autdesk EAGLE.
 <a href="#logo" name="logo"><img src="./IMAGES/FJXX6EHXMAUoe4V.png"></a>
 </p>
 
-We ordered it through the Online Fab Aisler.
+We ordered it through **TODO**.
 
 # Firmware 
 
