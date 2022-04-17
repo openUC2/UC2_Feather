@@ -421,7 +421,7 @@
 
   (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (layer "F.Cu")
     (tedit 5D3C0721) (tstamp 1de7d69f-a910-4281-b9db-78b5f5c42db1)
-    (at 117.57 58.87)
+    (at 233.9 141.06)
     (descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
     (tags "usb usb-c 2.0 pd")
     (property "LCSC" "C165948")
@@ -505,7 +505,7 @@
 
   (footprint "svg2shenzhen:im-cube_orthagonal-internal-pcb_svg2shenzhen" (layer "F.Cu")
     (tedit 0) (tstamp 22df74e7-4d34-42bf-850f-da14c7fd1281)
-    (at 185.975 139.26)
+    (at 100 100)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -3099,7 +3099,7 @@
 
   (footprint "jst-xh-smd_lib:JST_XH_S5B-XH-SM4-TB_1x05-1MP_Horizontal" (layer "F.Cu")
     (tedit 6239FF8C) (tstamp 5d4375d5-cdae-48a3-9322-4ef5b423d210)
-    (at 102.06 49.85)
+    (at 243.4 160.3)
     (descr "JST PH series connector, S5B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST PH top entry")
     (property "LCSC" "C2905027")
@@ -3164,7 +3164,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical_SMD" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 625c12fb-d7a1-4f5a-b1f4-f6959602bb78)
-    (at 86.21 59.4)
+    (at 53.8 52.2)
     (descr "surface-mounted straight pin header, 2x13, 2.54mm pitch, double rows")
     (tags "Surface mounted pin header SMD 2x13 2.54mm double row")
     (property "Sheetfile" "UC2-electronics-cube.kicad_sch")
@@ -4199,7 +4199,7 @@
 
   (footprint "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" (layer "F.Cu")
     (tedit 5B78AD87) (tstamp 9da84c40-49cd-46f1-bbf3-cd095d084e46)
-    (at 117.85 47.45)
+    (at 109.2 120.1)
     (descr "JST PH series connector, S3B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST PH top entry")
     (property "LCSC" "C442223")
@@ -4684,7 +4684,7 @@
 
   (footprint "ESP32_mini:ESP32_mini" (layer "F.Cu")
     (tedit 5F536902) (tstamp cb52b98d-0aa1-4ed1-8aa2-8f6557a78d5e)
-    (at 63.985 61.435)
+    (at 30.87 132.31)
     (property "Sheetfile" "UC2-electronics-cube.kicad_sch")
     (property "Sheetname" "")
     (path "/aecd9c44-75a3-4b9a-82b4-ebf02b3fa847")
@@ -4842,7 +4842,7 @@
 
   (footprint "jst-xh-smd_lib:JST_XH_S5B-XH-SM4-TB_1x05-1MP_Horizontal" (layer "F.Cu")
     (tedit 6239FF8C) (tstamp ce6d68c5-ce13-4e0b-96aa-729a039c9b3a)
-    (at 89.21 85)
+    (at 94.4 120.3)
     (descr "JST PH series connector, S5B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST PH top entry")
     (property "LCSC" "C2905027")
