@@ -69,7 +69,8 @@ It consists of two boards:
 
 # Software
 
-This PCB was created with KiCad 6. 
+This PCB was created with KiCad 6. The board outline and safe zones (to let modules stick out the top of a cube) have been drawn in Inkscape (1.0.2) and then converted into a Kicad footprint with the [svg2shenzhen](https://github.com/badgeek/svg2shenzhen) plugin (0.2.18.7) for Inkscape.
+
 
 
 

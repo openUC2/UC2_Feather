@@ -3,4 +3,5 @@
   (lib (name "L_SNR2010K_lib")(type "KiCad")(uri "${KIPRJMOD}/lib/L_SNR2010K_lib.pretty")(options "")(descr ""))
   (lib (name "jst-xh-smd_lib")(type "KiCad")(uri "${KIPRJMOD}/lib/jst-xh-smd_lib.pretty")(options "")(descr ""))
   (lib (name "LED_lumileds-l150_lib")(type "KiCad")(uri "${KIPRJMOD}/lib/LED_lumileds-l150_lib.pretty")(options "")(descr ""))
+  (lib (name "svg2shenzhen")(type "KiCad")(uri "${KIPRJMOD}/lib/svg2shenzhen")(options "")(descr ""))
 )

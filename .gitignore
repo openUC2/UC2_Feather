@@ -4,6 +4,9 @@ kicad-old/
 # Readme backup html file?
 README.md.bak
 
+#SVG2shenzhen cache
+**/.svg2shenzhen-cache/
+
 #Kicad:
 # Temporary files
 *.000
