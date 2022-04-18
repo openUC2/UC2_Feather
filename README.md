@@ -10,13 +10,14 @@
 
 - Design
   - PCBnew
-    - get board setup parameters from JLC SMT and common manufacturers (aisler)
-    - Mechanical design (Inkscape + SVG2Shenzhen to make board outline a footprint?)
-    - Layout
-    - Add labels to solderjumpers silkscreen
     - Routing
+      - copper fills
+      - power traces/noisy
+      - signal traces
+    - Add labels to solderjumpers silkscreen
+    - Silkscreen labels for components and breakout pins/pads
     - Add OSHW logo and UC2 OSHW cert number
-    - Add designer name
+    - Add designer name, revision as Silkscreen
   - When Design is finished:
     - Change Rev mark on EEschema and PCBnew pages to "Rev. B" and add date
     - Generate ibom, pdfs, gerbers
