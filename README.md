@@ -11,7 +11,6 @@
 - Design
   - PCBnew
     - Routing
-      - copper fills
       - power traces/noisy
       - signal traces
     - Add labels to solderjumpers silkscreen
