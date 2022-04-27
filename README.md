@@ -11,7 +11,6 @@
 - Design
   - PCBnew
     - Routing
-      - power traces/noisy
       - signal traces
     - Add labels to solderjumpers silkscreen
     - Silkscreen labels for components and breakout pins/pads
