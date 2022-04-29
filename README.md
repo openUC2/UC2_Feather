@@ -10,16 +10,14 @@
 
 - Design
   - PCBnew
-    - Routing
-      - double check power paths, gnd paths (width, length), via stitch
-      - cleanup routing for aesthetics
     - Add labels to solderjumpers silkscreen
     - Silkscreen labels for components and breakout pins/pads
     - Add OSHW logo and UC2 OSHW cert number
     - Add designer name, revision as Silkscreen
   - When Design is finished:
+    - double check component jlcsmt numbers, footprints, values
     - Change Rev mark on EEschema and PCBnew pages to "Rev. B" and add date
-    - Generate ibom, pdfs, gerbers
+    - Generate ibom, pdfs, gerbers, jlcsmt placement+bom
 - README:
   - Replace photos
   - Add where fab ordered and which fab parameters
