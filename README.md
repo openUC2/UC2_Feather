@@ -11,7 +11,8 @@
 - Design
   - PCBnew
     - Routing
-      - signal traces
+      - double check power paths, gnd paths (width, length), via stitch
+      - cleanup routing for aesthetics
     - Add labels to solderjumpers silkscreen
     - Silkscreen labels for components and breakout pins/pads
     - Add OSHW logo and UC2 OSHW cert number
