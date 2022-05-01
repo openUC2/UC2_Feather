@@ -10,7 +10,6 @@
 
 - Design
   - PCBnew
-    - Add OSHW logo and UC2 OSHW cert number
     - Add designer name, revision as Silkscreen
   - When Design is finished:
     - double check component jlcsmt numbers, footprints, values
@@ -20,6 +19,7 @@
   - Replace photos
   - Add where fab ordered and which fab parameters
   - Add links to pdf schematic (internal here in project repo)
+  - Add OSHW cert link somewhere in README: https://certification.oshwa.org/de000110.html
 
 ---
 
