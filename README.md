@@ -10,8 +10,6 @@
 
 - Design
   - PCBnew
-    - Add labels to solderjumpers silkscreen
-    - Silkscreen labels for components and breakout pins/pads
     - Add OSHW logo and UC2 OSHW cert number
     - Add designer name, revision as Silkscreen
   - When Design is finished:
