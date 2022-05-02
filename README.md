@@ -9,8 +9,6 @@
 ## TODO to make Rev. B ready:
 
 - Design
-  - PCBnew
-    - Add designer name, revision as Silkscreen
   - When Design is finished:
     - double check component jlcsmt numbers, footprints, values
     - Change Rev mark on EEschema and PCBnew pages to "Rev. B" and add date
