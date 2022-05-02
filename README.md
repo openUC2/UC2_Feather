@@ -13,6 +13,7 @@
     - double check component jlcsmt numbers, footprints, values
     - Change Rev mark on EEschema and PCBnew pages to "Rev. B" and add date
     - Generate ibom, pdfs, gerbers, jlcsmt placement+bom
+    - Maybe add github actions or just a script for exports file generation, visual diff
 - README:
   - Replace photos
   - Add where fab ordered and which fab parameters
